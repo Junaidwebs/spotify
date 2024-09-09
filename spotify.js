@@ -12,15 +12,15 @@ let songduration;
 let playsong = document.getElementsByClassName('play');
 let songs =[
 
-    {songName : "Mazak (Anuv - Jaine)" , filePath : "1.mp3", coverPath : "cover/1.jpg" ,},
-    {songName : "Barishein (Anuv - Jaine)" , filePath : "2.mp3", coverPath : "cover/2.jpg" ,},
-    {songName : "Misri (Anuv - Jaine)" , filePath : "3.mp3", coverPath : "cover/3.jpg" ,},
-    {songName : "Nadaniyaan" , filePath : "4.mp3", coverPath : "cover/4.jpg" ,},
-    {songName : "Shikayat (AUR)" , filePath : "5.mp3", coverPath : "cover/5.jpg" ,},
-    {songName : "Sun Zara(Anuv - Jaine)" , filePath : "6.mp3", coverPath : "cover/6.jpg" ,},
-    {songName : "Chor" , filePath : "7.mp3", coverPath : "cover/7.jpg" ,},
-    {songName : "Tou Hai Kaha (AUR)" , filePath : "8.mp3", coverPath : "cover/8.jpg" ,},
-    {songName : "Maula (Anuv - Jaine)" , filePath : "9.mp3", coverPath : "cover/9.jpg" ,}, 
+    {songName : "Mazak (Anuv - Jaine)" , filePath : "1.mp3", coverPath : "1.jpg" ,},
+    {songName : "Barishein (Anuv - Jaine)" , filePath : "2.mp3", coverPath : "2.jpg" ,},
+    {songName : "Misri (Anuv - Jaine)" , filePath : "3.mp3", coverPath : "3.jpg" ,},
+    {songName : "Nadaniyaan" , filePath : "4.mp3", coverPath : "4.jpg" ,},
+    {songName : "Shikayat (AUR)" , filePath : "5.mp3", coverPath : "5.jpg" ,},
+    {songName : "Sun Zara(Anuv - Jaine)" , filePath : "6.mp3", coverPath : "6.jpg" ,},
+    {songName : "Chor" , filePath : "7.mp3", coverPath : "7.jpg" ,},
+    {songName : "Tou Hai Kaha (AUR)" , filePath : "8.mp3", coverPath : "8.jpg" ,},
+    {songName : "Maula (Anuv - Jaine)" , filePath : "9.mp3", coverPath : "9.jpg" ,}, 
 
 
 ]
