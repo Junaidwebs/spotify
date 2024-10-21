@@ -58,6 +58,14 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e,i)=>{
             audioElement.pause()
             masterplay.classList.remove('fa-pause-circle')
             masterplay.classList.add('fa-play-circle')
+            audioElement = new Audio(songs[i].filePath);
+            audioElement.play()
+            update()
+            if(audioElement.play){
+                masterplay.classList.remove('fa-play-circle')
+            masterplay.classList.add('fa-pause-circle')
+            playsong[i].classList.remove('fa-play-circle')
+            playsong[i].classList.add('fa-pause-circle')
             
         }
     
