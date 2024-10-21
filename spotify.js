@@ -40,7 +40,6 @@ songitem.forEach((element, i)=>{
 Array.from(document.getElementsByClassName('songItem')).forEach((e,i)=>{
     e.addEventListener('click', ()=>{
         if(audioElement.paused){
-            audioElement.pause()
             audioElement = new Audio(songs[i].filePath);
             audioElement.play()
             update()
@@ -59,6 +58,7 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e,i)=>{
             audioElement.pause()
             masterplay.classList.remove('fa-pause-circle')
             masterplay.classList.add('fa-play-circle')
+            
         }
     
 
